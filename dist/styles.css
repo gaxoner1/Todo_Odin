@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+}
+
+#new_todo_button {
+
+}
+
+#new_todo_category {
+  width: 80%;
+  height: 150px;
+  padding: 1px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+#new_todo_button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+}
+
+p {
+  color: white;
+  border: white solid
+  display: block;
+  width: 65%;
+  height: 100px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid white;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  ont-weight: bold;
+  background-color: #55B4B0;
+  border-color: #55B4B0;
+}
