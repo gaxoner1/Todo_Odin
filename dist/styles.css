@@ -6,7 +6,7 @@ body {
 
 }
 
-#new_todo_category {
+#new_todo_body {
   width: 80%;
   height: 150px;
   padding: 1px 10px;
@@ -51,4 +51,29 @@ button {
   ont-weight: bold;
   background-color: #55B4B0;
   border-color: #55B4B0;
+}
+
+#modal_container {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  position: fixed;
+  background-color: rgba(0,0,0,0.5);
+  /*opacity: 0; */
+}
+
+#modal_body {
+  width: 80%;
+  height: 150px;
+  padding: 1px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
 }
